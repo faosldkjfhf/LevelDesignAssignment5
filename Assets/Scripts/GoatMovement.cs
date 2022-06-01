@@ -6,12 +6,12 @@ public class GoatMovement : MonoBehaviour
 {
     public float speed = 5f;
     private float direction = 0f;
-    private Rigidbody2D player;
+    private Rigidbody player;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<Rigidbody2D>();
+        player = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
